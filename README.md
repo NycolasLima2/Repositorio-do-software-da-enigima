@@ -76,6 +76,17 @@ Este projeto foca apenas na lógica básica e interface. Não serão entregues:
 |2|A linguagem de programação escolhida possui todas as ferramentas para criar a tela.|Gastar tempo extra aprendendo uma nova biblioteca ou mudar o design.|
 |3|A lógica de "pular letras" é reversível de forma idêntica.|O usuário não conseguirá recuperar a mensagem original, tornando o software inútil.|
 
+## Plano de Riscos 
+
+|Risco|Plano de Mitigação (Prevenção)|
+|---|---|
+|Divergência de Código|O CM deve exigir que todo código seja consolidado ao final de cada quarta e sexta-feira.|
+|Complexidade Excessiva|O Líder deve garantir que o Dev foque no "MVP" (o básico funcional) antes de tentar funções extras.|
+|Indisponibilidade de Membro|Criar um log de tarefas diário para que, se alguém faltar, outra pessoa saiba exatamente onde continuar.|
+|Um dos 4 membros faltar na quarta ou sexta.|Manter o código sempre em uma pasta compartilhada (Google Drive ou GitHub) para que outros possam continuar.|
+
+
+
 ## Restrições de projeto 
 _**DATA DE INÍCIO: 01/04/2026**_
 
