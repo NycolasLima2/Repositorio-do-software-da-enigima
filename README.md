@@ -1,5 +1,5 @@
 ## Repositorio-do-software-da-enigima
--O objetivo deste projeto é desenvolver um software de criptografia focado em privacidade. sistema deve permitir que usuários comuns consigam cifrar e decifrar mensagens através de um método de algoritmo (Cifra de César)
+- O objetivo deste projeto é desenvolver um software de criptografia focado em privacidade. sistema deve permitir que usuários comuns consigam cifrar e decifrar mensagens através de um método de algoritmo (Cifra de César)
 
 
 ## FLUXOGRAMA
@@ -7,7 +7,30 @@ https://canva.link/fluxogramadeprocessobpmn
 
 fluxograma dos processos para a entrega do cliente, ou seja, formar nossa organização de forma visual.
 
-## Primeiro passo: Produtos para projetos 
+## MARCOS IMPORTANTES: 
+- Documentação (Levantamento de Requisitos e Escopo);
+- Desenvolvimento/Codificação Finalizada;
+- Fase de Testes Concluída;
+- Aprovação.
+
+## Matriz de Papéis (RACI)
+A matriz RACI define quem faz o quê:
+- Responsável (Quem faz a tarefa)
+- Autoridade (Quem aprova e responde por ela)
+- Consultado (Quem dá apoio/opinião)
+- Informado (Quem recebe a notícia de que acabou)
+
+
+| Tarefa | **Líder (Gestão)** | **Dev (Codificação)** | **QA (Testes)** | **CM (Arquivos)** |
+|----|----|----|----|----|
+|Definição da Lógica.|A|R|C|I|
+|Escrita do Código.|I|R|C|A|
+|Criação da Interface|C|R|I|A|
+|Execução de Testes|A|C|R|I|
+|Organização do GitHub/Pastas|I|C|I|R|
+
+
+## Primeiro passo: Produtos para projetos
 
 | Nº | Entrega | Descrição |
 |----|----| ----|
@@ -45,3 +68,19 @@ Este projeto foca apenas na lógica básica e interface. Não serão entregues:
 - **Criptografia de arquivos**: O software processará apenas texto (strings), não arquivos como PDF ou imagens.
 - **Segurança contra Hackers Profissionais**: O sistema é didático; não possui proteção contra ataques de força bruta ou análise de frequência.
 - **Banco de Dados**: Não haverá armazenamento de histórico de mensagens ou usuários
+
+## Hipóteses de projeto 
+|Nº|SUPOSIÇÃO|IMPACTO SE FOR FALSA|
+|---|---|---|
+|1|O usuário usará apenas o alfabeto padrão (sem emojis ou símbolos complexos).|O programa pode travar ou gerar caracteres ilegíveis ("lixo") na saída.|
+|2|A linguagem de programação escolhida possui todas as ferramentas para criar a tela.|Gastar tempo extra aprendendo uma nova biblioteca ou mudar o design.|
+|3|A lógica de "pular letras" é reversível de forma idêntica.|O usuário não conseguirá recuperar a mensagem original, tornando o software inútil.|
+
+## Restrições de projeto 
+_**DATA DE INÍCIO: 01/04/2026**_
+
+_**DATA DE TÉRMINO: 15/04/2026**_
+- Fim da arquitetura: 08/04/2026
+- Fim da codificação: 10/04/2026
+- Fim da revisão de qualidade: 15/04/2026
+
