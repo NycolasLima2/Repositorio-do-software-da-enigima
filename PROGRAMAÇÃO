@@ -1,3 +1,47 @@
-## PROGRAMAÇÃO 1
+// PROGRAMAÇÃO 1(beta)
 
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <locale.h>
 
+int main() { setlocale (LC_ALL, "");
+    char texto[1000];
+    char base;
+    int chave, opcao, i;
+    //Menu
+    printf(".----------------------Criptografia de mensagens----------------------------------------------------------------------.\n");
+    printf("| 1. Criptografar                                                                                                     |\n");
+    printf("| 2. Descriptografar                                                                                                  |\n:---------------------------------------------------------------------------------------------------------------------'");
+    //Opção
+    printf("\n| Selecione a opção desejada: ");
+    scanf("%d", &opcao);
+    getchar();
+    //Texto
+    printf("|----------------------------------------------------------------------------------------------------------------------\n| Digite o texto: ");
+    fgets(texto, 1000, stdin);
+    texto[strcspn(texto, "\n")] = '\0';
+    //Chave
+    printf("|----------------------------------------------------------------------------------------------------------------------\n| Insira a chave: ");
+    scanf("%d", &chave);
+
+    if (opcao == 2) {
+        chave = -chave;
+    }
+
+    for (i = 0; texto[i] != '\0'; i++) {
+        if (isalpha(texto[i])) {
+            if (isupper(texto[i])) {
+                base = 'A';
+            } else {
+                base = 'a';
+            }
+            texto[i] = ((texto[i] - base + chave) % 26 + 26) % 26 + base;
+        }
+    }
+
+    printf("|----------------------------------------------------------------------------------------------------------------------\n| Resultado: %s", texto);
+    printf("\n'----------------------------------------------------------------------------------------------------------------------");
+
+    return 0;
+}
