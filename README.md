@@ -23,11 +23,11 @@ A matriz RACI define quem faz o quê:
 
 | Tarefa | **Líder (Gestão)** | **Dev (Codificação)** | **QA (Testes)** | **CM (Arquivos)** |
 |----|----|----|----|----|
-|Definição da Lógica.|A|R|C|I|
-|Escrita do Código.|I|R|C|A|
-|Criação da Interface|C|R|I|A|
-|Execução de Testes|A|C|R|I|
-|Organização do GitHub/Pastas|I|C|I|R|
+|Definição da Lógica.|Autoridade|Responsável|Consultado|Informado|
+|Escrita do Código.|Informado|Responsável|Consultado|Autoridade|
+|Criação da Interface|Consultado|Responsável|Informado|Autoridade|
+|Execução de Testes|Autoridade|Consultado|Responsável|Informado|
+|Organização do GitHub/Pastas|Informado|Consultado|Informado|Responsável|
 
 
 ## Primeiro passo: Produtos para projetos
