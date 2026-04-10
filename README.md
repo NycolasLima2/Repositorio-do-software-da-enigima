@@ -1,2 +1,2 @@
 # Repositorio-do-software-da-enigima
-armazenar o projeto
+-Objetivo: armazenar o projeto da enigima
