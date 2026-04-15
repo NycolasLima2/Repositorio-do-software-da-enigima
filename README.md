@@ -11,7 +11,7 @@ fluxograma dos processos para a entrega do cliente, ou seja, formar nossa organi
 - Documentação (Levantamento de Requisitos e Escopo);
 - Desenvolvimento/Codificação Finalizada;
 - Fase de Testes Concluída;
-- Aprovação.
+- Aprovação
 
 ## Matriz de Papéis (RACI)
 A matriz RACI define quem faz o quê:
